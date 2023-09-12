@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration form</h1>
+
+        <form id="myform" method="post">
+            <div class="fields">
+                <div class="input-field">
+                    <label>First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your name" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter your name" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Email</label>
+                    <input type="text" id="email" placeholder="Enter your email" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Mobile Number</label>
+                    <input type="number" id="pnum" placeholder="Enter mobile number" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob" placeholder="Enter birth date" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Gender</label>
+                    <select id="gender">
+                        <option disabled selected>Select gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Nationality</label>
+                    <input type="text" id="nation" placeholder="Enter nationality" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Address Line 1</label>
+                    <input type="text" id="Address1" placeholder="Enter Street" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Address Line 2</label>
+                    <input type="text" id="Address2" placeholder="Enter Area" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>District</label>
+                    <input type="text" id="district" placeholder="Enter your district" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>State</label>
+                    <input type="text" id="state" placeholder="Enter your state" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Country</label>
+                    <input type="text" id="country" placeholder="Enter your country" required>
+                </div>
+                <br>
+                <div class="input-field">
+                    <label>Zip Code</label>
+                    <input type="text" id="zcode" placeholder="Enter your zipcode" required>
+                </div>
+                <br>
+                <button class="sumbit">Submit</button>
+            </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    <h1>Details</h1>
+    <div id="register-value"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
+        integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="forms.js"></script>
+
+
+</body>
+
+</html>
